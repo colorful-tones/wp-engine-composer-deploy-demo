@@ -18,6 +18,6 @@ Some information about the recommended setup:
 
 ### Example badges
 
-![Production deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/production.yml/badge.svg) ![Staging deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/staging.yml/badge.svg)
+![PRD deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/production.yml/badge.svg) ![STG deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/staging.yml/badge.svg) ![DEV deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/development.yml/badge.svg)
 
 (Create your own: [Adding a workflow status badge](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge))
