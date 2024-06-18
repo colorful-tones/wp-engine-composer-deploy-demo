@@ -16,8 +16,6 @@ Some information about the recommended setup:
   - Let Composer / WPackagist handle standard and stable plugin and/or theme updates.
     - You can even use [Composer to install ACF PRO](https://www.advancedcustomfields.com/resources/installing-acf-pro-with-composer/).
 
-### Example badges
-
 ![PRD deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/production.yml/badge.svg) ![STG deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/staging.yml/badge.svg) ![DEV deployment status](https://github.com/colorful-tones/wp-engine-composer-deploy-demo/actions/workflows/development.yml/badge.svg)
 
 (Create your own: [Adding a workflow status badge](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge))
