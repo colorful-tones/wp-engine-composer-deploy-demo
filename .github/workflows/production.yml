@@ -21,7 +21,7 @@ jobs:
         WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
         # Destination to deploy to WPE
         # Change to your environment name
-        WPE_ENV: qorp
+        WPE_ENV: devrelghaction
 
         # Deploy options
 

@@ -1,0 +1,34 @@
+# Deploy to WP Engine Production environment
+# https://wpengine.com/support/environments/#About_Environments
+name: Deploy to production
+on:
+  push:
+    branches:
+     - staging
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Preparing to deploy to WP Engine staging"
+    - uses: actions/checkout@v3
+    - name: GitHub Action Deploy to WP Engine
+      uses: wpengine/github-action-wpe-site-deploy@v3
+      with:
+        # Deploy vars
+        # https://github.com/wpengine/github-action-wpe-site-deploy?tab=readme-ov-file#environment-variables--secrets
+
+        # The private RSA key you will save in the Github Secrets
+        WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+        # Destination to deploy to WPE
+        # Change to your environment name
+        WPE_ENV: devrelgithustg
+
+        # Deploy options
+
+        # An optional destination directory to deploy
+        # to other than the WordPress root.
+        REMOTE_PATH: "wp-content/"
+        # Optional flags for the deployment
+        FLAGS: -azvr --inplace --delete --include-from rsync-config/include.txt --exclude=".*" --exclude-from rsync-config/exclude.txt
+        # File containing custom scripts run after the rsync
+        SCRIPT: wp-content/bin/post-deploy.sh
