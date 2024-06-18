@@ -15,4 +15,5 @@ mysql.sql
 
 .env
 .env.*
+auth.json
 vendor
