@@ -94,3 +94,9 @@ autoupdater_maintenance_mode_enabled.tmp
 .DS_Store
 .Trashes
 Thumbs.db
+
+#---------------------------
+# ACF PRO
+# https://www.advancedcustomfields.com/resources/installing-acf-pro-with-composer/#using-version-control
+#---------------------------
+auth.json
