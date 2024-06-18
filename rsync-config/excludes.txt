@@ -1,0 +1,18 @@
+# Excluding these items from being deleted each rsync
+plugins/*
+themes/* 
+mu-plugins/
+uploads/
+blogs.dir/
+upgrade/*
+backup-db/*
+advanced-cache.php
+wp-cache-config.php
+cache/*
+cache/supercache/*
+index.php
+mysql.sql
+
+.env
+.env.*
+vendor
