@@ -1,12 +1,12 @@
 # Deploy to WP Engine Production environment
 # https://wpengine.com/support/environments/#About_Environments
-name: Deploy to production
+name: Deploy to staging
 on:
   push:
     branches:
      - staging
 jobs:
-  build:
+  Deploy-to-WP-Engine-Staging:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Preparing to deploy to WP Engine staging"
