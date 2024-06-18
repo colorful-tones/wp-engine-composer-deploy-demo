@@ -1,4 +1,5 @@
 # Excluding these items from being deleted each rsync
+
 plugins/*
 themes/* 
 mu-plugins/
