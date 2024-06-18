@@ -10,7 +10,7 @@
 # Ignore all themes
 /themes/*
 # DO NOT ignore this theme!
-!/themes/custom-theme
+!/themes/demo-theme
 
 #---------------------------
 # WordPress plugins
@@ -18,7 +18,7 @@
 # Ignore all plugins
 /plugins/*
 # DO NOT ignore this plugin!
-!/plugins/custom-plugin
+!/plugins/demo-plugin
 
 #---------------------------
 # WP MU plugins: these are
