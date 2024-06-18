@@ -5,6 +5,10 @@
     "type": "project",
     "repositories": [
         {
+            "type": "composer",
+            "url": "https://connect.advancedcustomfields.com"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org",
             "only": [
@@ -16,7 +20,8 @@
     "require": {
         "wpackagist-plugin/two-factor": "*",
         "wpackagist-plugin/gutenberg": "*",
-        "wpackagist-plugin/wordpress-seo": "*"
+        "wpackagist-plugin/wordpress-seo": "*",
+        "wpengine/advanced-custom-fields-pro": "^6.3"
     },
     "extra": {
         "installer-paths": {
