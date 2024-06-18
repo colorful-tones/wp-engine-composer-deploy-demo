@@ -1,0 +1,96 @@
+#---------------------------
+# WordPress general
+#---------------------------
+# Ignore the wp-content/index.php
+/index.php
+
+#---------------------------
+# WordPress themes
+#---------------------------
+# Ignore all themes
+/themes/*
+# DO NOT ignore this theme!
+!/themes/custom-theme
+
+#---------------------------
+# WordPress plugins
+#---------------------------
+# Ignore all plugins
+/plugins/*
+# DO NOT ignore this plugin!
+!/plugins/custom-plugin
+
+#---------------------------
+# WP MU plugins: these are
+# managed by the platform.
+#---------------------------
+/mu-plugins/
+
+#---------------------------
+# WP uploads directory
+#---------------------------
+/uploads/
+
+#---------------------------
+# WP upgrade files
+#---------------------------
+/upgrade/
+
+#---------------------------
+# Composer
+#---------------------------
+/vendor
+.env
+.env.*
+!.env.example
+
+#---------------------------
+# WPE - Smart Plugin Manager
+#---------------------------
+/.logs/
+autoupdater_maintenance_mode_enabled.tmp
+
+#---------------------------
+# large/disallowed file types
+# a CDN should be used for these
+#---------------------------
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+*.log
+
+#---------------------------
+# OS-specific files
+#---------------------------
+.DS_Store
+.Trashes
+Thumbs.db
